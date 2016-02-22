@@ -1,0 +1,202 @@
+body{
+    background: url("../img/bg.png") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+
+}
+.wrapper{
+    position: relative;
+    margin-bottom: 40px;
+}
+.white_main{
+    background: white;
+    width:1000px;
+    padding-top:28px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-bottom: solid 3px   black;
+    -webkit-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+
+
+}
+.header{
+    margin-top: 20px;
+
+}
+.logo{
+    background: url("../img/logo.png")no-repeat;
+    background-size: cover;
+    height:167px ;
+    width:313px;
+    margin-left: 28px;
+    margin-bottom: 0;
+    position: relative;
+    top:-31px;
+    
+}
+.contacts{
+    position: absolute;
+    top:-20px;
+    right: 45px;
+    color: #4FA8BD;
+}
+.top_block{
+    height: 136px;
+    position: relative;
+}
+
+.button {
+    margin-right:35px;
+    width: 720px;
+    position: absolute;
+    top:71px;
+    left:640px;
+}
+.button a img,
+.button a {
+    display: block;
+    float: left;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    height: 40px;
+    width: 40px;
+
+}
+.button a {
+    margin: 8px 8px;
+    text-align: center;
+    color: blue;
+    font: normal normal 10px Tahoma;
+    text-decoration: underline;
+    color: #4FA8BD;
+
+}
+.button a:hover img {
+    margin-left: -30%;
+    height: 55px;
+    width: 55px;
+}
+.button a:hover {
+    font: normal bold 14px Tahoma;
+    color:white;
+}
+
+.image{
+    background: url("../img/image.png") no-repeat;
+    height: 237px;
+
+}
+.menu{
+
+    width:100%;
+    background-color: #353535;
+    border-bottom: solid 1px black;
+    -webkit-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+
+}
+.menu:after{
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: solid 1px black;
+    -webkit-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    background-color: #353535;
+    margin: 5px 30px;
+}
+/*.menu>ul>li>a{
+    margin-bottom: 15px;*/
+
+.menu>ul>li:nth-child(2):after,
+.menu>ul>li:nth-child(3):after,
+.menu>ul>li:nth-child(4):after{
+    content: "";
+    display: block;
+    position: absolute;
+    top:8px;
+    right: -10px;
+    width:5px;
+    height: 5px;
+    background: url("../img/triangle.png") no-repeat  ;
+}
+.menu ul li a, .submenu li a{
+    color:white;
+    padding: 5px 0;
+
+
+}
+.menu .submenu {
+    position: absolute;
+    width:150px;
+    display: none;
+    background-color: #303030;
+    left: -5px;
+
+}
+.menu .submenu li{
+    margin:4px 0 4px 5px;
+}
+.menu ul li:hover .submenu  {
+    display: block;
+    margin-top: 6px;
+    -webkit-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+    box-shadow: 0px 7px 17px -1px rgba(0,0,0,0.69);
+
+
+}
+.content{
+    width: 1000px; /* ширина трех блоков */
+    overflow: hidden;
+}
+.left_column{
+    float: left;
+    background-color: #EEEEEE;
+    width:20%;
+    padding-left: 10px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.center_column{
+    background-color: #EEEEEE;
+    width:20%;
+    padding-left: 10px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.right_column{
+    float: right;
+    background-color: #EEEEEE;
+    width:20%;
+    padding-left: 10px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+h2{
+    text-align: center;
+    margin: 5px auto;
+}
+footer{
+    position: absolute;
+    bottom:-25px;
+    left:42%;
+    color: white;
+    font: normal normal 10px Tahoma;
+}
